@@ -1,3 +1,28 @@
+Titulo:
+Aprendendo Stored Procedures
+Descrição:
+Criar um banco no qual Stored Procedures seja necessário 
+
+Identificação de Entidades, Atributos e Relacionamentos:
+Entidades:
+
+Aluno
+Curso
+Professor
+Atributos:
+
+Aluno: id_aluno (chave primária), nome, sobrenome, email, id_curso (chave estrangeira referenciando o curso que o aluno está matriculado)
+Curso: id_curso (chave primária), nome_curso
+Professor: id_professor (chave primária), nome_professor
+Relacionamentos:
+
+Um aluno está matriculado em um curso.
+Um curso é ministrado por um professor.
+
+Programa utilizado: 
+MySqlWorkBench
+
+Nome:Giovanni Ferreira Ramos - 222438
 
 CREATE TABLE Curso (
     id_curso INT PRIMARY KEY AUTO_INCREMENT,
